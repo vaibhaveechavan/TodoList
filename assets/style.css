@@ -117,6 +117,7 @@ select{
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    color: white;
 }
 
 select{
