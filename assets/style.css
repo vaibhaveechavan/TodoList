@@ -111,6 +111,7 @@ select{
     appearance: none;
     outline: none;
     border: none;
+    color: white;
 }
 
 .select{
