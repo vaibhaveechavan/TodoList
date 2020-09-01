@@ -30,6 +30,7 @@ form input, form button{
     font-size: 1rem;
     border: none;
     background: white;
+    outline: none;
 }
 
 form button{
