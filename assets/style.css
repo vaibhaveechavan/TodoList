@@ -45,6 +45,17 @@ form button:hover{
     color: white;
 }
 
+.input-check{
+    justify-content: center;
+    align-items: center;
+    color: red;
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
 .todo-container{
     display: flex;
     justify-content: center;
