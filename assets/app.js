@@ -5,6 +5,7 @@ const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
 
 //Event Listeners
+document.addEventListener('DOMContentLoaded', regsiterSW);
 document.addEventListener('DOMContentLoaded', getTodos); //retrieve the already existing list if any from local storage on page refresh
 todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
@@ -163,4 +164,14 @@ function removeLocalTodos(todo) {
     const todoIndex = todo.children[0].innerText;
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem("todos", JSON.stringify(todos));
+}
+
+async function regsiterSW(){
+    if('serviceWorker' in navigator){
+        try{
+            await navigator.serviceWorker.register('./assets/sw.js');
+        }catch (e){
+            console.log('SW registration failed');
+        }
+    }
 }
