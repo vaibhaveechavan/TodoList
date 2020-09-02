@@ -1,0 +1,20 @@
+{
+    "name": "TodoList",
+    "short_name": "Todo",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "A Todo List app",
+    "icons": [
+        {
+        "src": "images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        },
+        {
+            "src": "images/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+            }
+    ]
+}
