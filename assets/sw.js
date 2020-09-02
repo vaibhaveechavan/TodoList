@@ -2,7 +2,7 @@ const cacheName = 'todo-list';
 const staticAssets = [
     './',
     '/assets/app.js',
-    '/assets/manifest.webmanifest',
+    '/manifest.webmanifest',
     '/assets/style.css',
     '/index.html'
 ];
