@@ -1,12 +1,17 @@
 const cacheName = 'todo-list';
 const staticAssets = [
     './',
-    '/assets/app.js',
-    '/manifest.webmanifest',
-    '/assets/style.css',
-    '/index.html,
-    '/assets/images/icon-256x256.png',
-    '/assets/images/icon-512x512.png'
+    './index.html',
+    './manifest.webmanifest',
+    './sw.js',
+    './assets/app.js',
+    './assets/style.css',
+    './assets/images/icon-512x512.png',
+    './assets/css/all.css',
+    './assets/webfonts/fonts.css',
+    './assets/css/all.min.css',
+    './assets/webfonts/swap.woff2',
+    './assets/webfonts/fa-solid-900.woff2'
 ];
 
 self.addEventListener('install', async e => {
