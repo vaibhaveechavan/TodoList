@@ -7,14 +7,9 @@
     "description": "A Todo List app",
     "icons": [
         {
-        "src": "images/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-        },
-        {
-            "src": "images/icon-256x256.png",
-            "sizes": "256x256",
+            "src": "/assets/images/icon-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
-            }
+        }
     ]
 }
