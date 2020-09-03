@@ -11,7 +11,11 @@ const staticAssets = [
     './assets/webfonts/fonts.css',
     './assets/css/all.min.css',
     './assets/webfonts/swap.woff2',
-    './assets/webfonts/fa-solid-900.woff2'
+    './assets/webfonts/fa-solid-900.woff2',
+    './assets/webfonts/fa-solid-900.woff',
+    './assets/webfonts/fa-solid-900.ttf',
+    './assets/webfonts/fa-solid-900.svg',
+    './assets/webfonts/fa-solid-900.eot'
 ];
 
 self.addEventListener('install', async e => {
