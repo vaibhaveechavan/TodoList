@@ -5,11 +5,12 @@ const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
 
 //Event Listeners
-document.addEventListener('DOMContentLoaded', regsiterSW);
 document.addEventListener('DOMContentLoaded', getTodos); //retrieve the already existing list if any from local storage on page refresh
 todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);
+document.addEventListener('DOMContentLoaded', regsiterSW);
+
 
 //Functions
 
@@ -45,12 +46,12 @@ function addTodo(event) {
         todoDiv.appendChild(newTodo);
         //Check mark button
         completedButton = document.createElement('button');
-        completedButton.innerHTML = '<i class="fas fa-check"> </i>';
+        completedButton.innerHTML = '<i class="fas fa-check"></i>';
         completedButton.classList.add("complete-btn");
         todoDiv.appendChild(completedButton);
         //Check trash button
         const trashButton = document.createElement('button');
-        trashButton.innerHTML = '<i class="fas fa-trash"> </i>';
+        trashButton.innerHTML = '<i class="fas fa-trash"></i>';
         trashButton.classList.add("trash-btn");
         todoDiv.appendChild(trashButton);
         //append to List
@@ -169,7 +170,7 @@ function removeLocalTodos(todo) {
 async function regsiterSW(){
     if('serviceWorker' in navigator){
         try{
-            await navigator.serviceWorker.register('./assets/sw.js');
+            await navigator.serviceWorker.register('./sw.js');
         }catch (e){
             console.log('SW registration failed');
         }
