@@ -6,7 +6,7 @@ const staticAssets = [
     '/sw.js',
     '/assets/app.js',
     '/assets/style.css',
-    '/assets/images/icon-512x512.png',
+    '/assets/icon-512x512.png',
     '/assets/css/all.css',
     '/assets/webfonts/fonts.css',
     '/assets/css/all.min.css',
