@@ -7,6 +7,7 @@ const staticAssets = [
     './assets/app.js',
     './assets/style.css',
     './favicon/icon-512x512.png',
+    './favicon/icon-192x192.png',
     './assets/css/all.css',
     './assets/webfonts/fonts.css',
     './assets/css/all.min.css',
