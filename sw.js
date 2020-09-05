@@ -1,21 +1,21 @@
 const cacheName = 'todo-list';
 const staticAssets = [
     './',
-    './index.html',
-    './manifest.webmanifest',
-    './sw.js',
-    './assets/app.js',
-    './assets/style.css',
-    './assets/images/icon-512x512.png',
-    './assets/css/all.css',
-    './assets/webfonts/fonts.css',
-    './assets/css/all.min.css',
-    './assets/webfonts/swap.woff2',
-    './assets/webfonts/fa-solid-900.woff2',
-    './assets/webfonts/fa-solid-900.woff',
-    './assets/webfonts/fa-solid-900.ttf',
-    './assets/webfonts/fa-solid-900.svg',
-    './assets/webfonts/fa-solid-900.eot'
+    '/index.html',
+    '/manifest.webmanifest',
+    '/sw.js',
+    '/assets/app.js',
+    '/assets/style.css',
+    '/assets/images/icon-512x512.png',
+    '/assets/css/all.css',
+    '/assets/webfonts/fonts.css',
+    '/assets/css/all.min.css',
+    '/assets/webfonts/swap.woff2',
+    '/assets/webfonts/fa-solid-900.woff2',
+    '/assets/webfonts/fa-solid-900.woff',
+    '/assets/webfonts/fa-solid-900.ttf',
+    '/assets/webfonts/fa-solid-900.svg',
+    '/assets/webfonts/fa-solid-900.eot'
 ];
 
 self.addEventListener('install', async e => {
