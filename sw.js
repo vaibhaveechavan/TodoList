@@ -1,6 +1,6 @@
 const cacheName = 'todo-list';
 const staticAssets = [
-    '/',
+    './',
     './index.html',
     './manifest.webmanifest',
     './sw.js',
