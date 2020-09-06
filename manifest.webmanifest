@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#fff",
-    "theme_color": "#d6aed6",
+    "theme_color": "#98d9e1",
     "description": "A Todo List app",
     "icons": [
         {
