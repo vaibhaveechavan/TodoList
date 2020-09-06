@@ -1,2 +1,3 @@
 # TodoList
-A simple TodoList created while trying hands on Vanilla JS
+
+You can directly download and run this code
